@@ -7,7 +7,7 @@ Form Management for Life.
 * [Schema](#schema)
 * [Setup](#setup)
 * [Developer Notes](#developer-notes)
-* [References](#references)
+* [Resources](#resources)
 
 ## General info
 Goal is to manage forms on a large scale. 
@@ -17,6 +17,7 @@ With this application, in-house users will first define and group form fields in
 Project is anticipated to be created with:
 * Gatsby
 * GraphQL
+* MongoDB
 	
 ## Schema
 
@@ -86,5 +87,10 @@ Nothing, yet. Stay tuned, Folks.
 * create middleware to handle data validation. The middleware would also be responsible for setting the flags that let the frontend know that changes have been made to the user form field settings.
 * confirm will let the front end know that we need to ask the user to input the data twice
 
-## References
+## Resources
 
+* "Nesting GraphQL With MongoDB" by [Jenny Yang](https://medium.com/swlh/nesting-graphql-with-mongodb-1013361176c1)
+* "How to write a good README for your GitHub project?" by [Rita Łyczywek](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+* [MongoDB Dataypes](https://www.tutorialspoint.com/mongodb/mongodb_datatype.htm)
+* W3Schools [form tag](https://www.w3schools.com/tags/tag_form.asp) and [input tag](https://www.w3schools.com/tags/tag_input.asp)
+* [MongoDB Data Modeling Introduction](https://docs.mongodb.com/manual/core/data-modeling-introduction/)
